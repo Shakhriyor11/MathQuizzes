@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "469088835212",
+    "project_id": "math-quizzes-fcf71",
+    "storage_bucket": "math-quizzes-fcf71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469088835212:android:290a0cadf34e3a3a3d8da9",
+        "android_client_info": {
+          "package_name": "com.portfolio.someapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469088835212-v9246geh2thji23vie0l24v7dgakucd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_GD696LgFcdzJLKvk98Z3xYQN-OvW1kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469088835212-v9246geh2thji23vie0l24v7dgakucd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
