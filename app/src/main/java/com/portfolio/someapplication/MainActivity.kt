@@ -87,9 +87,14 @@ class MainActivity : AppCompatActivity() {
                 Log.d("DATEPICKER", datePicker.headerText)
                 val dateFormatter = SimpleDateFormat("dd-mm-yyyy")
                 val date = dateFormatter.format(Date(it))
-                val intent = Intent(this, QuestionFragment::class.java)
-                intent.putExtra("DATE", date)
-                startActivity(intent)
+                val fragment = QuestionFragment()
+                val bundle = Bundle()
+                bundle.putString("DATE", date)
+                fragment.arguments = bundle
+
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.container, fragment)
+                    .commit()
             }
             datePicker.addOnNegativeButtonClickListener {
                 Log.d("DATEPICKER", datePicker.headerText)
